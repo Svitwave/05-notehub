@@ -3,7 +3,6 @@ import { type Note } from "../types/note";
 import { type NoteTag } from "../types/note";
 
 export interface NoteSearchResponse {
-  page: number;
   notes: Note[];
   totalPages: number;
 }
